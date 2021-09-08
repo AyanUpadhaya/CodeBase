@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Grid Project</title>
+
+	<style type="text/css">
+		.wrapper{
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-auto-rows: minmax(100px,auto);
+			grid-auto-columns: minmax(100px,auto);
+			font-family: sans-serif;
+			font-size: x-large;
+			grid-gap: 5px;
+
+		}
+
+
+		.wrapper > div{
+			padding: 1em;
+			text-align: center;
+		}
+		.box1{
+			background: blue;
+		}
+
+		.box2{
+			background: red;
+			color: #fff;
+			font-weight: bold;
+		}
+
+		.box3{
+			background: yellow;
+			color: black;
+			font-weight: bold;
+		}
+
+		.box4{
+			background: gray;
+			color: #fff;
+			font-weight: bold;
+		}
+
+		.box5{
+			background: yellow;
+			color: black;
+			font-weight: bold;
+		}
+
+		.box6{
+			background: aqua;
+			color: black;
+			font-weight: bold;
+		}
+
+	</style>
+</head>
+<body>
+
+<!-- we have a wrapper here -->
+
+<div class="wrapper">
+	
+
+	<div class="box1">
+		<img src="images/die1.PNG">
+	</div>
+
+	<div class="box2">
+		<img src="images/die2.PNG">
+	</div>
+
+	<div class="box3">
+		<img src="images/die3.PNG">
+	</div>
+
+
+	<div class="box4">
+		<img src="images/die4.PNG">
+	</div>
+
+	<div class="box5">
+		<img src="images/die5.PNG">
+	</div>
+
+	<div class="box6">
+		<img src="images/die6.PNG">
+	</div>
+</div>
+</body>
+</html>

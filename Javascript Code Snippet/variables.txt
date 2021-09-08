@@ -1,0 +1,3 @@
+var price1 = 10;
+var price2 = 12;
+var total = price1 + price2;

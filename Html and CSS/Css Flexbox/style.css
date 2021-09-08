@@ -1,0 +1,41 @@
+
+body{
+	box-sizing: border-box;
+	font-family: 'Ubuntu',sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	font-size: 60px;
+}
+
+.nav_list{
+	line-height: 3em;
+}
+/*.navbar .nav_list{
+	font-size: 20px;
+}*/
+.nav_list li{
+	display: inline-block;
+	font-size: 20px;
+
+}
+
+.navbar .nav_list li a{
+	text-decoration: none;
+	padding: 20px;
+	color: #2f3232;
+}
+
+.signup{
+	border: 1px solid black;
+	border-radius: 3px;
+	background: lightblue;
+}

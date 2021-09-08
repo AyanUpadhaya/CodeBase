@@ -1,0 +1,3 @@
+const persons =['Nayem','Ayan',1947];
+
+const flower = mew Array("Rose","White lily","Sun Flower");

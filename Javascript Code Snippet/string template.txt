@@ -1,0 +1,3 @@
+let firstName = "jhon";
+
+console.log(`my name is ${firstName}`);

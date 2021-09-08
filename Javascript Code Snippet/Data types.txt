@@ -1,0 +1,12 @@
+let length = 10; //number
+
+let lastName = "Doe"; //String
+
+let x = {firstName:"Jhon",lastName:"Smith"}; // Objects
+
+let PI =3.14 //float
+
+let names =['max','groad','beast']; //arrays
+
+let x1 = 34.00 //number decimals
+let x2 = 34 //number

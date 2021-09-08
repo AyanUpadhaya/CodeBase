@@ -1,0 +1,7 @@
+//this is a single comment in JS
+
+
+/*
+this is a multiline comment very
+useful to explain something.
+*/

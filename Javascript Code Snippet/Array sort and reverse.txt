@@ -1,0 +1,7 @@
+const fruits =['Banana','Apple','Orange'];
+
+//sort
+console.log(fruits.sort());
+
+//reverse
+console.log(fruits.reverse())

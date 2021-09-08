@@ -1,0 +1,15 @@
+let str = "Please locate where 'locate' occurs";
+
+console.log(str.indexOf('locate')) //returns 7
+
+string.lastIndexOf();
+
+
+string.startsWith(); //returns true or false if a string begins with a specified value
+
+
+string.endsWith(); //returns true or false if a string ends with a specified value
+
+string.search('locate');
+string.includes('world'); //returns true or false
+

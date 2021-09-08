@@ -1,0 +1,64 @@
+/*we will use custom properties*/
+:root{
+	/*--mycolorbg:#00ff00;*/
+	--mycolorbg:#2f3232;
+	--mytextcolor:#fff;
+	--myfont:monospace;
+	--myfont-size:30px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	h2{
+		color:#fff;
+		font-size:30px;
+	}
+	p{
+		color:#fff;
+	}
+	body{
+		/*background-color: #2f3232;*/
+		background:linear-gradient(blue,white);
+		background-repeat: repeat-y;
+
+	}
+	#yt-btn {
+		margin-top: 100px;
+		margin-right: 250px;
+	}
+}
+
+body{
+	/*background: var(--mycolorbg);*/
+	background:linear-gradient(35deg,red,blue);
+	color:var(--mytextcolor);
+	font-family: var(--myfont);
+	font-size: var(--myfont-size);
+	display: grid;
+	place-content:center;
+	text-align: center;
+}
+
+body #yt-btn{
+	width: 200px;
+	height: 35px;
+	border-radius:5px; 
+	background-color: teal;
+	margin-top: 100px;
+	margin-left:220px; 
+}
+#yt-btn a{
+	text-decoration: none;
+	color:var(--mytextcolor);
+}
+#yt-btn a:hover{
+	color:yellow;
+
+}
+body img{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	border-radius:100%; 
+}

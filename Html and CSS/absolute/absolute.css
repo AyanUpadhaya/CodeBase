@@ -1,0 +1,33 @@
+.parent{
+	width: 600px;
+	height: 600px;
+	background: lightblue;
+	margin:auto;
+	padding: 1em;
+	/*position: relative;*/
+	display: grid;
+	place-items:center;
+	text-align: center;
+	font-family: monospace,sans-serif;
+}
+
+
+
+.child{
+	width:150px;
+	height: 150px; 
+	background-color: red;
+	/*position: absolute;*/
+	/*top: 40%;
+	left: 40%;*/
+	box-shadow: 5px 10px 10px;
+	
+}
+p::before{
+	content: "-Remember yesterday ";
+	font-weight: bold;
+	color: #2f3232;
+}
+.child:hover{
+	background: teal;
+}

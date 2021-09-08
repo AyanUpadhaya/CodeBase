@@ -1,0 +1,51 @@
+//Array property and methods
+
+console.log(flower.length);
+
+//Method
+
+console.log(flower.sort());
+
+// join() method
+
+console.log(flowers.join(" "));
+
+//pop() method removes the last element
+
+flowers.pop()
+
+//pushing in array
+
+flowers.push("Kiwi");
+
+//shift() method removes the first element
+
+flowers.shift();
+
+//unshift() methods add a new element to an array at beginnig
+
+flowers.unshift('lemon');
+
+// deleting 
+
+delete flowers[0];
+
+//splice method adds new items to array
+
+flowers.splice(2,0,"lemon")l
+
+// concatenating arrays
+const myGirls =['Celie','Lone'];
+const myBoys =['Emil','Tobias','Linux'];
+
+const myChildren = myGirls.concat(myBoys);
+
+//Slicing array and also coppies array
+
+const fruits = ['Banana','Apple','Orange','Lemon','Mango'];
+
+const citrus = fruits.slice(1);
+
+//Automatic to string
+
+console.log(fruits.toString());

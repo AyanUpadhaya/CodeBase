@@ -1,0 +1,11 @@
+//Js Objects
+
+const person ={
+	firstName:"Jhon",
+	lastName:"Doe",
+	age:50,
+	eyecolor:"blue",
+	fullName: function(){
+		return this.firstName +" "+this.lastName;
+	}
+};

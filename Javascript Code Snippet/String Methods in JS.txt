@@ -1,0 +1,67 @@
+//Js String Methods and Properties
+
+let txt = "Hello world";
+
+console.log(txt.length); //return length of string
+
+console.log(txt.slice(0,3)); //slice string
+
+// difference is substring doesn't accept negative index
+
+console.log(txt.substring(1,3));
+
+//substr() method
+
+//difference is that the second parameter specifies the length of the extracted part
+
+console.log(txt.substr(1,4));
+
+
+//replacing text
+console.log(txt.replace('world','javascript'));
+
+//uppercase
+
+console.log(txt.toUppperCase());
+
+//lowercase 
+
+console.log(txt.toLowerCase());
+
+//concat() method
+
+//concats two or more strings
+
+let txt2='and everyone';
+
+let text = txt.concat(" ",txt2); 
+
+
+//trim() removes whitespace
+
+console.log(txt.trim())
+
+//supports padding
+
+txt.padStart(4,0);
+
+//pad ends
+
+txt.padEnd(4,0)
+
+//charAt() method returns the character at specified index
+
+console.log(txt.charAt(0));
+
+//Property Access
+
+console.log(txt[0]);
+
+//convert a string to array
+
+txt.split(','); //split on commas
+txt.split(' '); //split on spaces
+txt.split('|'); //split on pipes
+
+
+
